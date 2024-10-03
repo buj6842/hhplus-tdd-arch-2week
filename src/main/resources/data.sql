@@ -42,10 +42,9 @@ INSERT INTO users (username) VALUES ('수강생35');
 INSERT INTO users (username) VALUES ('수강생36');
 
 -- 특강 데이터
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('1주차 TDD 기초강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-01');
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('1주차 TDD 기초강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-01');
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('2주차 clean code', 'clean code 에 대해 강의합니다', '허재', 30, '2024-10-02');
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('3주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-03');
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('4주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-04');
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('5주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-05');
-INSERT INTO lecture (title, description, lecturer, capacity, lecture_date) VALUES ('6주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-06');
+INSERT INTO lecture (lecture_title, description, lecture_teacher, capacity, lecture_date) VALUES ('1주차 TDD 기초강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-01');
+INSERT INTO lecture (lecture_title, description, lecture_teacher, capacity, lecture_date) VALUES ('2주차 clean code', 'clean code 에 대해 강의합니다', '허재', 30, '2024-10-02');
+INSERT INTO lecture (lecture_title, description, lecture_teacher, capacity, lecture_date) VALUES ('3주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-03');
+INSERT INTO lecture (lecture_title, description, lecture_teacher, capacity, lecture_date) VALUES ('4주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-04');
+INSERT INTO lecture (lecture_title, description, lecture_teacher, capacity, lecture_date) VALUES ('5주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-05');
+INSERT INTO lecture (lecture_title, description, lecture_teacher, capacity, lecture_date) VALUES ('6주차 강의', 'TDD에 대해 기초강의를 합니다', '허재', 30, '2024-10-06');
